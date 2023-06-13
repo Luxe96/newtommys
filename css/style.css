@@ -1,0 +1,1498 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+
+:root{
+
+    --bs-card-border-color: white;
+    --bs-alert-padding-x: none;
+  --bs-alert-padding-y:10rem;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+   
+}
+
+
+/*navbar*/
+
+
+.navbar{
+
+
+
+background: rgba(0, 0, 0,0.9);
+
+
+
+}
+
+
+
+.navbar-collapse{
+    
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+.navbar-brand {
+
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 4rem;
+
+
+}
+
+.navbar-brand h1:hover,.navbar-collapse a:hover {
+    
+
+    color: rgb(119, 122, 124);
+    
+    
+    }
+    
+#nos{
+color: #ffffff;
+
+}
+#nos:hover{
+    color: rgb(119, 122, 124);
+    
+    }
+
+
+
+.collapse ul a,.collapse a {
+
+    color: rgb(255, 255, 255);
+    
+    
+    
+}
+
+
+.navbar-collapse h1{
+font-size: 2rem;
+
+    
+    
+    
+}
+    
+    
+
+
+
+
+
+/*carousel*/
+
+#carouselExampleInterval{
+
+position: relative;
+
+}
+
+#carouselExampleInterval img{
+
+    object-fit: cover;
+height: 710px;
+
+
+
+
+}
+
+
+
+
+/*banner*/
+
+
+.banner i{
+   
+position: absolute;
+position: fixed;
+bottom: 50px;
+right: 10px;
+font-size: 2.7rem;
+color: #6e6868;
+z-index: 1000000000000000;
+
+
+}
+
+
+
+
+
+
+
+/*SOBRE*/
+
+
+.sobre {
+
+   margin-bottom: 170px;
+
+
+}
+
+.sobre p{
+    font-family: 'Poppins', sans-serif;
+    
+    
+     }   
+
+
+
+section .sob{
+background:black ;
+padding: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+transition: .5S;
+max-width: 900px;
+
+
+}
+
+
+section .container h2{
+
+    margin: 50px;
+    font-size: 3rem;
+    
+
+    
+    
+    }
+
+
+
+    section .container p,section .container h2 {
+   
+    color: #ffffff;
+      margin: 50px;
+        
+        }
+    
+
+
+.sobre:hover .container {
+
+    
+    transform:translateY(100px);
+}
+
+
+
+
+
+
+
+/*STAFF*/
+
+.staff{
+    
+ max-width: 900px;
+ margin: 0 auto;
+
+}
+
+
+  
+  
+    .staff h2{
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+       color: rgb(0, 0, 0,.9);
+       margin-bottom: 40px;
+
+
+         }   
+
+         
+    
+
+
+
+.staff img{
+
+
+height: 250px;
+width: 250px;
+border-radius: 50%;
+object-fit: cover;
+transition: .5s ease-in;
+}
+
+
+
+
+.staff .row .max {
+  
+     position: relative; 
+
+     margin: 25px auto;
+
+
+    }
+
+
+    .staff .row .info{
+
+        position: absolute;
+        bottom:  0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        opacity: 0;
+        margin: 10px auto;
+        text-align: center;
+        
+    }
+
+   
+
+
+
+
+
+.staff h3{
+    font-family: 'Poppins', sans-serif;
+   font-size: 1.3rem;
+   font-weight: 200;
+   transition: .7s;
+
+     }   
+
+
+
+   .staff .max .info:hover h3{
+    transform: translateY(60px);
+    
+    
+       }  
+    
+    
+
+
+  
+    .staff .max .info:hover{
+      transition: .6s ease-in-out;
+       opacity: 1;
+        
+           }  
+        
+
+
+
+.staff .stt {
+  
+    margin-bottom: 90px;
+
+
+
+   }
+
+
+   .staff .st {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 90px;
+    padding:20px 50px;
+background: black;
+
+
+   }
+
+
+   .staff .st p {
+    
+    max-width: 96%;
+    
+
+
+   }
+
+
+
+
+/*PROYECTOS*/
+
+
+.pro .container {
+
+
+    max-width: 1000px;
+ }
+    
+    .pro  {
+
+        
+        margin-bottom: -110px;
+    
+        
+        
+        }
+        
+
+.pro  .max {
+
+margin-bottom: 40px;
+
+
+}
+
+    
+
+ .pro .max img {
+height: 300px;
+width: 300px;
+object-fit: cover;
+filter:grayscale(1);
+
+    
+    }
+   
+
+    .pro .max:hover img {
+        
+        filter:grayscale(0);
+        
+            
+            }
+           
+        
+
+    .pro .max:hover .overlay-content {
+
+      
+       transform: translateY(80px);
+       margin-bottom: 80px;
+       transition: .6s;
+        
+        
+        }
+        
+
+    
+    .pro .max .overlay-content:hover::before{
+        content: "";
+        color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;    
+        bottom: 0;
+       background: rgba(110, 104, 104,.4);
+        z-index: 1001000;
+        
+              
+
+            }
+   
+            
+            .pro    .max .overlay-content p{
+                position: absolute;
+                top: 0;
+                opacity: 0;
+                
+                       }
+
+
+
+     
+            
+
+ .pro    .max .overlay-content:hover p{
+             position: absolute;
+             opacity: 1;
+             font-family: 'Poppins', sans-serif;
+             left:15%;
+           top:75%;
+              transform: translate(-75%,-15%);
+              text-align:center;
+
+                color: rgb(255, 255, 255);
+                font-size: 1.1rem;
+                z-index: 2001000;
+                    }
+        
+.pro        .max:nth-child(1) .overlay-content:hover p{
+
+                   
+                        position: absolute;
+                       left:10%;
+                   
+                         transform: translate(-75%,-10%);
+                       
+                               }
+                               
+ .pro             .max:nth-child(3) .overlay-content:hover p{
+
+                             
+                                position: absolute;
+                               left:10%;
+                           
+                                 transform: translate(-75%,-10%);
+                               
+  }
+
+
+ .pro       .max:nth-child(5) .overlay-content:hover p{
+
+                                     
+                                        position: absolute;
+                                       left:10%;
+                                   
+                                         transform: translate(-75%,-10%);
+                                       
+ }
+   
+
+
+ .pro      .max:nth-child(7) .overlay-content:hover p{
+
+                                      
+                                                position: absolute;
+                                               left:10%;
+                                           
+                                                 transform: translate(-75%,-10%);
+                                               
+   }
+
+
+.pro       .max:nth-child(9) .overlay-content:hover p{
+
+                                             
+                                                        position: absolute;
+                                                       left:10%;
+                                                   
+                                                         transform: translate(-75%,-10%);
+                                                       
+                                                               }                                                  
+
+
+
+   .overlay-content{
+ position: relative;
+  
+
+
+
+   }
+        
+   
+
+
+
+     
+  
+
+
+
+         
+
+.pro  h2 {
+
+    margin:100px 0;
+
+    font-family: 'Poppins', sans-serif;
+    font-size:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    }
+    
+
+
+
+
+
+
+
+/*barra*/
+
+::-webkit-scrollbar{
+    width: 12px;
+    
+    }
+    
+    
+    
+    ::-webkit-scrollbar-thumb{
+      
+    
+        background: linear-gradient(transparent,rgba(0, 0, 0,.9));
+        
+        
+        }
+        
+        
+        ::-webkit-scrollbar-thumb:hover{
+      
+    
+            background: linear-gradient(transparent,  rgb(119, 122, 124));
+            border-radius: 6px;
+            
+            }
+            
+
+
+
+/*colaboraciones*/
+
+
+
+.cl {
+    font-family: 'Poppins', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 3rem;
+margin-bottom: 100px;
+color: black;
+
+}
+
+
+
+.al {
+
+margin: 210px;
+
+
+
+
+}
+
+.rol .card{
+    font-family: 'Poppins', sans-serif;
+margin: 20px;
+
+border: 2px solid black;
+padding: 40px 0;
+
+}
+
+.rol .card p{
+    font-size: 1rem;
+
+
+}
+
+
+
+.card-header{
+
+    --bs-card-cap-bg: none;
+    font-size: 1.6rem;
+
+}
+
+.rol .card:hover,.rol .card:hover p,.rol .card:hover h5 {
+    
+background: black;
+color: white;
+
+--bs-card-border-color: white;
+}
+
+
+.al .mod .all{
+
+border: 2px solid black;
+font-weight: 300;
+margin: 90px  auto;
+padding: 15px 100px;
+font-family: 'Poppins', sans-serif;
+font-size: 1.1rem;
+display: flex;
+justify-content: center;
+text-transform: uppercase;
+margin-bottom: -100px;
+
+}
+
+
+
+
+.al .mod .all:hover{
+
+    background: black;
+    color: white;
+   
+    
+    
+    
+    
+    }
+    
+    
+
+
+    .al .mod .modal-body,.al .mod .modal-header,.al .mod .modal-footer{
+
+        font-family: 'Poppins', sans-serif;
+background: #000000;
+              color: #fffbfb;
+  
+        
+        
+        
+        
+        }
+        
+        
+       .modal-title{
+
+           text-transform: uppercase; 
+           font-size: 1.5rem; 
+            
+            }
+
+
+  .precios .cul {
+
+    border: 0.4px solid white;
+    padding: 10px 0;
+      text-align: center;
+               
+                }
+
+
+   .precios .min {
+
+         margin-bottom: 25px;
+      }
+                
+                
+   
+      .precios {
+
+        margin-bottom: -35px;
+     }
+                                      
+                
+  
+
+
+
+
+.precios h5 {
+margin: 10px 0;
+ text-transform: uppercase;
+                    text-align: center;
+                               
+   }
+
+
+            
+.modal-body form{
+
+    
+                    margin-top: 30px;
+                   
+  }
+                                  
+
+
+  .alert .alert {
+
+
+    padding: 10px;
+    margin-bottom: -100px;
+
+
+    }
+
+
+
+
+
+.modal-body .foote,.modal-footer .foote{
+
+border: 2px solid white;
+margin: 30px 10px;
+color: #fffbfb;
+padding: 8px 25px;
+
+}
+
+
+
+.modal-body .foote{
+
+    
+    margin: 30px 10px;
+   
+    }
+    
+  
+        
+    
+
+
+
+.modal-body  .row .foote:hover,.modal-footer .foote:hover{
+
+    border: 2px solid white;
+padding: 10px 35px;
+transition:step-end;
+    
+    
+    }
+    
+
+
+
+
+
+
+
+/*contacto*/
+
+.for{
+
+margin: 0 auto;
+
+
+
+}
+
+.contactoss{
+
+margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+   text-transform: uppercase;
+  background: black;
+
+
+}
+
+
+.contactoss p{
+
+    
+       text-transform: lowercase;
+       text-align: start;
+       max-width: 365px;
+      
+    
+    
+    }
+
+
+.mal{
+
+
+border-right: 2px solid white;
+
+}
+
+.mal .s,.mal .a {
+text-transform: uppercase;
+font-size: 1.1rem;
+
+
+}
+
+
+.mo{
+    padding: 132px;
+  text-align: start;
+
+
+}
+
+
+    
+    .mo h3{
+
+  
+        
+        color: rgb(255, 255, 255);
+        
+        }
+        
+
+
+.contactoss .on{
+
+color: rgb(255, 255, 255);
+
+    
+            text-align: center;          
+
+}
+
+
+/*video*/
+
+.vi{
+position: relative;
+margin: 100px  ;
+
+
+
+}
+
+
+
+.vid{
+
+    
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+
+
+.vid video{
+
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+    top: 0;
+    left: 0;
+    
+    
+    }
+    
+
+
+    .vid h2{
+
+
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        top: 0;
+        left: 0;
+        font-size: 30vh;
+        text-align: center;
+        line-height: 100vh;
+       color: #fffbfb;
+        mix-blend-mode:normal;
+        font-family: 'Poppins', sans-serif;
+        
+        
+        }
+
+        
+
+
+
+
+
+/*footer*/
+
+
+
+footer .cont{
+background: black;
+font-family: 'Poppins', sans-serif;
+padding: 30px;
+ font-size: .9rem;
+
+
+}
+
+
+.cont .list-group  {
+
+   margin: 0 20px;
+    
+    
+    }
+
+.cont .list-group li {
+
+background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+
+}
+
+.cont .list-group a {
+
+    font-size: 1rem;
+        color: rgb(255, 255, 255);
+    }
+    
+    
+    
+
+    .cont .lis i {
+
+        display: flex;
+       
+        vertical-align: middle;
+       
+      
+
+
+        }
+        
+    
+        .cont .lis i p {
+
+       
+           margin: -3px 15px ;
+
+          
+    
+    
+            }
+        
+            #map a{
+
+                margin: 0  10px ;
+            }
+
+
+
+
+
+
+
+ @media screen and (max-width:1200px){
+
+
+
+
+
+      /*video*/          
+     .vid{
+
+     height: 70vh;
+                
+      }
+
+
+       .vid h2{
+
+         font-size: 20vh;
+         line-height: 90vh;
+                   
+         }
+
+      .vid h2{
+
+       line-height: 70vh;
+                
+        }
+                                  
+
+/*footers*/
+
+
+ footer .cont{
+                           
+                    font-size: .85rem;
+                   
+}
+    /*contactos*/               
+
+    .cont .list-group h2 {
+font-size: 1.3rem;
+
+ }
+
+ .contactoss  h3{
+
+  font-size: 1.4rem;
+    
+    }
+    
+.como p{
+
+    max-width: 250px;
+}
+
+
+
+
+  #map a {
+
+   font-size: .9rem;
+ }
+
+  /*otro*/
+
+
+
+}
+
+
+
+
+
+    
+
+
+ 
+          
+
+
+
+
+@media screen and (max-width:765px){
+
+.navbar-brand{
+display: none;
+
+
+}
+
+
+ 
+
+
+
+
+/*nav*/
+
+.navbar-toggler span{
+
+filter: invert(1);
+
+}
+
+
+section .container h2{
+
+    
+    font-size: 2rem;
+    
+
+    
+    
+    }
+
+
+/*banner*/
+
+
+.banner i{
+   
+   
+    font-size: 2.1rem;
+    
+    
+    
+    }
+
+
+ /*staff*/
+
+
+ 
+    .staff img{
+
+
+        height: 200px;
+        width: 200px;
+
+        }
+
+      
+             
+
+     .stt{
+
+      padding: -100px;
+     }       
+
+
+    
+
+    
+       
+    /*contacto*/
+    
+   
+.mal {
+
+ border-right: none;
+                   
+                   
+                    
+  }
+    
+
+
+ .cont .list-group  {
+                        margin: 20px 0;
+                        
+                         
+                         
+  }
+
+
+
+
+  /*videos*/                    
+       
+       
+ .vid h2{
+        
+                            font-size: 15vh;
+                          
+                           
+  }
+        
+  .vid{
+
+    
+  
+    height: 70vh;
+   
+    
+    
+    
+
+}
+                      
+
+   /*footer*/                    
+                          
+
+
+ footer .cont{
+  text-align: start;
+
+ 
+ }
+
+
+
+   
+
+    #map p{
+
+        margin-right: -40px;
+        
+        
+        }
+
+
+
+ /*proyectos*/
+
+                         
+                             
+    
+   
+
+}
+
+   
+        
+      
+        
+
+
+@media screen and (max-width:500px){
+
+   
+     /*proyextos*/ 
+    
+    .pro .h2, .staff .h2,.cl{
+
+font-size: 2.4rem;
+
+
+
+
+    }      
+       
+   
+  /*colaboraciones*/     
+    
+    .al .mod .all{
+
+       
+        padding: 15px 50px;
+        
+        
+        }
+        
+
+
+
+
+
+
+  /*videos*/                    
+        
+      
+  .vid h2{
+        
+    font-size: 10vh;
+    line-height: 50vh;
+   
+}
+
+.vid{
+
+
+
+height: 50vh;
+
+
+
+
+
+}
+
+
+
+.card-header{
+
+    
+    font-size: 1.3rem;
+
+}
+
+
+
+        
+       
+    
+    }
+    
+       
+
+
+
+
+    @media screen and (max-width:335px){
+
+   
+    /*proyectos*/  
+    
+        .pro .h2, .staff .h2,.cl{
+    
+    font-size: 1.6rem;
+    
+    
+    
+    
+        }      
+        
+      
+.pro  .max img {
+
+    height: 200px;
+    width: 200px;
+    
+   
+    
+        
+        }
+       
+      
+
+/*sobre*/   
+
+
+
+
+ 
+/*contacto*/   
+
+.mo h3{
+
+  font-size: 1rem;
+        
+   
+    
+    }
+    
+    .contactoss .on{
+
+font-size: 1.5rem;            
+        
+        }
+          
+
+
+
+  /*videos*/                    
+       
+       
+  .vid h2{
+        
+    font-size: 6vh;
+    line-height: 40vh;
+   
+}
+
+.vid{
+
+
+
+height: 40vh;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*footer*/   
+
+
+.cont .list-group li {
+
+   font-size: .60rem;
+    
+    
+    }
+    
+
+    .cont .list-group li h2 {
+
+        font-size: .9rem;
+         
+         
+         }
+         
+            
+           
+        
+        }
+        
+           
+    
+    
+    
+ @media screen and (max-width:256px){
+
+   
+            /*proyectos*/  
+            
+           
+        
+        
+          /*videos*/                    
+                
+            
+          .vid h2{
+                
+            font-size: 4vh;
+            line-height: 20vh;
+           
+        }
+        
+        .vid{
+        
+        
+        
+        height: 20vh;
+        
+        
+        
+        
+        
+        }
+       
+   /*contacto*/  
+        .mo h3{
+
+            font-size: .7rem;
+                  
+             
+              
+              }
+              
+              .contactoss .on{
+       
+          font-size: 1rem;            
+                  
+                  }
+                    
+           /*footer*/    
+        
+        
+    .cont .list-group li p {
+
+font-size: .5rem;
+       
+         
+         }
+         
+            
+         #map a{
+
+           font-size: .5rem;
+        }
+
+
+
+
+        
+        
+       
+                
+                }
+                
+                   
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+         
+
+
+
+
+
+
+
+
+
+
+
+
